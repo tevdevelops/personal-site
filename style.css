@@ -1,0 +1,176 @@
+body {
+    background-image: url('images/spaceback.gif');
+    background-color: black;
+
+}
+h1, h2, h3, p, label, input, textarea, button {
+    font-family: "Play", sans-serif;
+    color: white;
+    opacity: 0.9;
+}
+h2 {
+    font-size: 1.8em;
+}
+#desktop-nav {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.73);
+    min-width: 100%;
+    height: 100px;
+    left:0;
+    top:0;
+}
+#desktop-nav ul {
+    margin-right: 5%;
+    margin-top: 3%;
+}
+#desktop-nav ul li, #desktop-nav ul > li > a {
+    display: inline;
+    font-family: "Play", sans-serif;
+    color: white;
+    float: right;
+    padding-right: 5%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    transition-property: all;
+    text-decoration: none;
+}
+#desktop-nav ul li:hover, #desktop-nav ul > li > a:hover {
+    cursor: pointer;
+    color: limegreen;
+}
+#tev-dev {
+float: left;
+font-size: 2em;
+margin-top: -1%;
+padding-left: 4%;
+}
+#social-footer {
+    float: right;
+    position: relative;
+    padding-right: 25px;
+}
+#social-footer a {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#social-footer a img:hover{
+    color: limegreen;
+}
+#social-footer a img {
+    opacity: 0.8;
+}
+#content {
+    width: 90%;
+    min-height: 500px;
+    height: inherit;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+.about-pic {
+    width: 300px;
+    margin-left:8%;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+#main-section {
+    display: block;
+}
+#about-section, #portfolio-section, #contact-section{
+    display: none;
+}
+#main-section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#main-section > div {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+
+}
+#main-section div img {
+    opacity: 0.5;
+    border-radius: 5px;
+    margin-left: 25%;
+    width: 500px;
+}
+#main-section h2 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #32CD32;
+
+}
+#about-section-left, #about-section-right, #contact-section-left, #contact-section-right {
+    display: inline-block;
+    width: 45%;
+    margin:  0 auto;
+}
+#about-section-left{
+    float: left;
+}
+#about-section-right {
+    float: right;
+}
+
+input, textarea, button {
+    font-family: "Play", sans-serif;
+    display: block;
+    width: 250px;
+    height: 30px;
+    padding-bottom: 20px;
+    border:none;
+}
+fieldset {
+    margin-bottom: 15px;
+    border: none;
+}
+input, textarea, button {
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+}
+input, textarea {
+    margin-top: -30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+input:focus, textarea:focus, button:focus {
+    border: 1px solid limegreen;
+    outline: none;
+}
+button:hover {
+    background-color: limegreen;
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    transition-property: all;
+    cursor: pointer;
+}
+#contact-pic {
+    width: 500px;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+#portfolio-section {
+    margin: 0 10%;
+    top: 300px;
+}
+.bvndit, .openspace, .globalgeeks {
+    display: inline-block;
+    background-color: rgba(48, 61, 167, 0.1);
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.bvndit:hover, .openspace:hover, .globalgeeks:hover {
+    border: solid 1px limegreen;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    transition-property: all;
+}
+.port-pic {
+    opacity: 0.8;
+}
