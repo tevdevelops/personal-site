@@ -9,6 +9,25 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <link href="hover.css" rel="stylesheet" media="all">
 
+    <?php
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $telephone = $_POST['tel'];
+    $to = 'tevdevelops@gmail.com';
+    $subject = 'Hello';
+
+    $body = "From: $name\n E-Mail: $email\n Number: $telephone\n Message: $message\n";
+
+      if(mail ($to, $subject, $body, $email)) {
+        echo '<p></p>';
+      }
+      else {
+        echo "<p>Sorry, your email did not send.</p>";
+      }
+    ?>
+
+
 </head>
 <body>
     <div id="desktop-nav">
